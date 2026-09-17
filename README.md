@@ -8,9 +8,7 @@ rarely lose people over the code. They lose them because there is no clear way
 in, and nobody has the hours to answer when someone tries.
 
 I've done this for seven years, at a pre-seed startup, then a Series A devtool
-company, then an agent company. At the devtool company the DevLake community
-grew from 100 to over 400 engineering leaders across more than 100 enterprise
-teams, and the project went from no stars to over 3,000.
+company, then an agent company.
 
 ## Ask me something
 
