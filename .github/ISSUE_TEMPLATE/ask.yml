@@ -1,0 +1,48 @@
+name: Ask me something
+description: Say what your project is stuck on. I answer in public.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is public, and so is my answer, so the next person with the same problem can read it. Leave out anything you wouldn't post in your own repo. If it can't be public, email ask[at]joshuapoddoku[dot]com instead.
+
+  - type: input
+    id: project
+    attributes:
+      label: Your project
+      description: A link to the repo.
+      placeholder: https://github.com/org/repo
+    validations:
+      required: true
+
+  - type: textarea
+    id: stuck
+    attributes:
+      label: What is it stuck on?
+      description: What you're seeing, in your own words. A number helps if you have one, like pull requests waiting on review, or days to a first reply.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where does it show up?
+      description: Pick any that fit.
+      multiple: true
+      options:
+        - People contribute once and don't come back
+        - More pull requests than we can review
+        - Nobody outside the team contributes
+        - A CONTRIBUTING, SECURITY or code of conduct we haven't written
+        - Roles, credit, and who decides
+        - Something else
+    validations:
+      required: false
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried?
+      description: Optional. Saves me suggesting it back to you.
+    validations:
+      required: false
