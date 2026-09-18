@@ -34,6 +34,7 @@ body:
         - More pull requests than we can review
         - A CONTRIBUTING, SECURITY or code of conduct we haven't written
         - Roles, credit, and who decides
+        - Work that depends on one person
         - What people say about the project outside the repo
         - Conferences and calls for papers
         - Something else
