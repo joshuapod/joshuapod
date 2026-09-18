@@ -47,21 +47,3 @@ Good things to ask about:
 [joshuapoddoku.com](https://www.joshuapoddoku.com) ·
 [Bluesky](https://bsky.app/profile/joshuapoddoku.com) ·
 [X](https://x.com/JoshuaPoddoku)
-
-What changed:
-- The first line is now the home page hero.
-- The opening paragraph reuses the "from the repo to the ecosystem around it" span from the footer. It also says what the system actually reads, which covers social listening and calls for papers as you described.
-- The second paragraph names both problems: people who leave after a first pull request, and too many AI-written pull requests to review. The old version only named the first. The ICP spec says to lead with whichever one the reader actually has.
-- The ask list gains two ecosystem items: what people say outside the repo, and conferences and calls for papers. "Nobody outside the team is contributing" came out, because the ICP spec says not to validate the "we need more contributors" premise. The AI pull-request item now describes what's already arriving, not what might arrive.
-- The post count went from 2,000 to 2,500. The data has 2,547 today.
-
-The issue form should match the new list. In ask.yml, replace the dropdown options 
-  three tiers of contributor, and where a maintainer's time pays off.
-- **[Work with me](https://www.joshuapoddoku.com/work-with-me/)**: for anything
-  bigger than an issue.
-
-## Elsewhere
-
-[joshuapoddoku.com](https://www.joshuapoddoku.com) ·
-[Bluesky](https://bsky.app/profile/joshuapoddoku.com) ·
-[X](https://x.com/JoshuaPoddoku)
